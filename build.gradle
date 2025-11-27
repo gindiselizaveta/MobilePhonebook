@@ -23,6 +23,8 @@ dependencies {
 
 //https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator
     implementation("io.rest-assured:json-schema-validator:3.0.0")
+
+    implementation 'net.datafaker:datafaker:2.5.2'
 }
 
 test {
