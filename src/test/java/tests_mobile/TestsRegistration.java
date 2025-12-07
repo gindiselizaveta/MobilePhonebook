@@ -48,6 +48,7 @@ public class TestsRegistration extends TestBase {
         authentificationScreen.typeAuthForm(user);
         authentificationScreen.clickBtnRegistration();
         //softAssert.assertTrue(new ErrorScreen(driver).validateErrorText("password=must not be blank",10));
+        //softAssert.assertAll();
         //АППЛИКАЦИЯ ПАДАЕТ И ВЫЛЕТАЕТ ПРИ ПОПЫТКЕ РЕГИСТРАЦИИ БЕЗ ПАРОЛЯ
     }
 
